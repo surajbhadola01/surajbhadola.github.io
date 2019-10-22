@@ -140,11 +140,11 @@ $(document).ready(function(){
     var pthree = $('.progress-three').html();
 	var pfour = $('.progress-four').html();
     var pfive = $('.progress-five').html();
-    $(".progress-one").animate({'width':pone},500,function(){
-        $('.progress-two').animate({'width':ptwo},500,function(){
-            $('.progress-three').animate({'width':pthree},500,function(){
-				$('.progress-four').animate({'width':pfour},500,function(){
-					$('.progress-five').animate({'width':pfive},500);
+    $(".progress-one").animate({'width':pone},5000,function(){
+        $('.progress-two').animate({'width':ptwo},5000,function(){
+            $('.progress-three').animate({'width':pthree},5000,function(){
+				$('.progress-four').animate({'width':pfour},5000,function(){
+					$('.progress-five').animate({'width':pfive},5000);
 				});
 			});
         });
